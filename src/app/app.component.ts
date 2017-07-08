@@ -7,7 +7,7 @@ import {AdService} from './ad.service';
     selector: 'my-app',
     template: `
         <div>
-            <add-banner [ads]="ads"></add-banner>
+            <ad-banner [ads]="ads"></ad-banner>
         </div>
     `
 })

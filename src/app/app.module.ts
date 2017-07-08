@@ -25,6 +25,8 @@ import {HeroProfileComponent} from './hero-profile.component';
         AdDirective
     ],
 
+    // Ссылок на эти компоненты из шаблонов других компонентов нету, поэтому
+    // мы указываем их здесь явно, чтоб ангуляр создал фабрики и для этих классов компонентов тоже
     entryComponents: [
         HeroJobAdComponent,
         HeroProfileComponent
